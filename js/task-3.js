@@ -1,6 +1,6 @@
 const inputElement = document.querySelector("#name-input");
 const spanElement = document.querySelector("#name-output");
-inputElement.addEventListener("blur", OnInputChange);
+inputElement.addEventListener("input", OnInputChange);
 
 function OnInputChange() {
   const userName = inputElement.value.trim();
